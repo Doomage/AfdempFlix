@@ -4,16 +4,17 @@
 }
 
 <div class="row">
+    <br />
     @foreach (var movie in Model)
     {
         <div class="col-4">
             <div class="card bg-dark text-white">
-                <img src="@movie.ThumbnailUrl" class="card-img" alt="@movie.Title">
+                <img src="@movie.ThumbnailUrl" class="card-img movie-Thumbnail" alt="@movie.Title">
                 <div class="card-img-overlay">
                     <h4 class="card-title">@movie.Title</h4>
                     <h5 class="card-subtitle">@movie.Genre</h5>
                     <p class="card-text">@movie.Description</p>
-                    <a href="@movie.TrailerUrl" class="btn btn-block btn-primary mt-5">Button</a>
+                    <a href="@movie.TrailerUrl" class="btn btn-block btn-primary bottom">Watch Now! </a>
                 </div>
             </div>
         </div>
