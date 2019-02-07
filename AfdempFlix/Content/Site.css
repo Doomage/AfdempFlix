@@ -1,6 +1,6 @@
 ﻿.movie-Thumbnail
 {
-    height:500px;
+    height:300px;
 }
 .bottom{
     position:absolute;
@@ -9,4 +9,9 @@
 }
 .nav-margin{
     margin-bottom:3px;
+}
+.center{
+    position:relative;
+    margin-left:auto;
+    margin-top:50%;
 }
