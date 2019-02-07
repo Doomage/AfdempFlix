@@ -7,8 +7,8 @@
     <br />
     @foreach (var movie in Model)
     {
-        <div class="col-4">
-            <div class="card bg-dark text-white">
+        <div class="col-md-4">
+            <div class="card bg-dark text-white rounded">
                 <img src="@movie.ThumbnailUrl" class="card-img movie-Thumbnail" alt="@movie.Title">
                 <div class="card-img-overlay">
                     <h4 class="card-title">@movie.Title</h4>
