@@ -1,6 +1,6 @@
-﻿.movie-Thumbnail
+﻿.movvie-Thumbnail
 {
-    height:300px;
+    height:100px;
 }
 .bottom{
     position:absolute;
@@ -15,3 +15,34 @@
     margin-left:auto;
     margin-top:50%;
 }
+.margin-toper{
+    margin-top:-25%;
+    margin-bottom:+25%;
+}
+.leftmarge
+{ 
+    margin-left:30%;   
+}
+.test{
+    margin-top:-10%;
+    opacity:0.5;
+}
+.box {
+    padding: 60px 0px;
+}
+
+.box-part {
+    background-color: whitesmoke;
+    border-radius: 0;
+    padding: 60px 10px;
+    margin: 30px 0px;
+}
+
+.text {
+    margin: 20px 0px;
+}
+
+.fa {
+    color: #4183D7;
+}
+

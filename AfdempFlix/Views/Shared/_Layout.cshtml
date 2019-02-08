@@ -7,16 +7,16 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-transparent">
-        @Html.ActionLink("AfdempFlix", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })       
+<body style="background-color: whitesmoke">
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top bg-dark test">
+        @Html.ActionLink("TeamProject", "Index", "Home", new { area = "" }, new { @class = "navbar-brand font-italic" })       
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    @Html.ActionLink("Movies", "Index", "Movies", new { area = "" }, new { @class = "navbar-brand" })
+                    @Html.ActionLink("Courts", "Index", "Movies", new { area = "" }, new { @class = "navbar-brand" })
                 </li>
             </ul>
         </div>
@@ -25,7 +25,9 @@
         @RenderBody()
         <hr />
         <footer class="">
-            <p>&copy; @DateTime.Now.Year - AfdempFlix</p>
+            <p class="mbr-text mbr-fonts-style display-7">
+                &copy; @DateTime.Now.Year - TeamProject - All Rights Reserved
+            </p>
         </footer>
     </div>
 

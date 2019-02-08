@@ -10,11 +10,8 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-        
+
         <div class="carousel-item active">
-            @*<div class="center">
-                <input type="text" placeholder="Search..">
-            </div>*@
             <img class="d-block w-100" src="https://media.architecturaldigest.in/wp-content/uploads/2018/06/FIFA-2018-World-Cup-Featured-1366x768.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
                 <h5>World Cap!</h5>
@@ -45,22 +42,118 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<div class="container-fluid">
+<div class="row">
+    <div class="col-md-12 margin-toper">
+        <div class="input-group">
+            <input class="form-control border-secondary py-2 form-control col-md-4 rounded-pill border-success leftmarge" type="search" value="Search">
+            <div class="input-group-append">
+                <button class="btn btn-success rounded-pill" type="submit">Search!</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
     <div class="row">
+        <div class="col-sm-12">
+            <h2 class="page-item text-center form-text">FIND SOMEHWERE TO PLAY</h2>
+            <p class="text-center">Find football facilities in a range of cities across the Greece<br />Choose a pitch!</p>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-around ">
         <br />
         @foreach (var movie in Model)
         {
-            <div class="col-sm-3 nav-margin">
+            <div class="col-md-4 d-none d-sm-block col-sm-6">
                 <div class="card bg-dark text-white rounded ml-3 mt-3 mr-3">
                     <img src="@movie.ThumbnailUrl" class="card-img movie-Thumbnail" alt="@movie.Title">
                     <div class="card-img-overlay">
-                        <h4 class="card-title">@movie.Title</h4>
-                        @*<h5 class="card-subtitle">@movie.Genre</h5>
-                        <p class="card-text">@movie.Description</p>*@
-                        <a href="@movie.TrailerUrl" class="btn btn-block btn-primary bottom">Watch Now! </a>
+                        <h4 class="card-title text-center">@movie.Title</h4>
+                        <a href="@movie.TrailerUrl" class="btn btn-block btn-success bottom">Book Now! </a>
                     </div>
                 </div>
             </div>
         }
     </div>
 </div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="box" style="opacity:1;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center rounded-circle">
+                    <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                    <div class="title">
+                        <h4>Instagram</h4>
+                    </div>
+                    <div class="text">
+                        <span>Follow us on Instagram.</span>
+                    </div>
+                    <a href="https://www.instagram.com/">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center  rounded-circle">
+                    <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                    <div class="title">
+                        <h4>Facebook</h4>
+                    </div>
+                    <div class="text">
+                        <span>Like Us on Facebook</span>
+                    </div>
+                    <a href="https://www.facebook.com">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center rounded-circle">
+                    <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+                    <div class="title">
+                        <h4>Twitter</h4>
+                    </div>
+                    <div class="text">
+                        <span>Follow us on Twitter.</span>
+                    </div>
+                    <a href="https://www.twitter.com">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center rounded-circle">
+                    <i class="fa fa-pinterest-p fa-3x" aria-hidden="true"></i>
+                    <div class="title">
+                        <h4>Pinterest</h4>
+                    </div>
+                    <div class="text">
+                        <span>Follow us on Pinterest.</span>
+                    </div>
+                    <a href="https://gr.pinterest.com/">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center rounded-circle">
+                    <i class="fa fa-google-plus fa-3x" aria-hidden="true"></i>
+                    <div class="title">
+                        <h4>Google</h4>
+                    </div>
+                    <div class="text">
+                        <span>Follow us on Google+.</span>
+                    </div>
+                    <a href="https://plus.google.com/discover">Learn More</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="box-part text-center rounded-circle">
+                    <i class="fa fa-github fa-3x" aria-hidden="true"></i>
+                    <div class="title">
+                        <h4>Github</h4>
+                    </div>
+                    <div class="text">
+                        <span>Check Our Code on Github.</span>
+                    </div>
+                    <a href="https://github.com/session">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
