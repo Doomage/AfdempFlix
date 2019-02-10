@@ -1,32 +1,37 @@
-﻿.movvie-Thumbnail
-{
-    height:100px;
+﻿.movvie-Thumbnail {
+    height: 100px;
 }
-.bottom{
-    position:absolute;
+
+.bottom {
+    position: absolute;
     bottom: 0;
-    left:0;
+    left: 0;
 }
-.nav-margin{
-    margin-bottom:3px;
+
+.nav-margin {
+    margin-bottom: 3px;
 }
-.center{
-    position:relative;
-    margin-left:auto;
-    margin-top:50%;
+
+.center {
+    position: relative;
+    margin-left: auto;
+    margin-top: 50%;
 }
-.margin-toper{
-    margin-top:-25%;
-    margin-bottom:+25%;
+
+.margin-toper {
+    margin-top: -25%;
+    margin-bottom: +25%;
 }
-.leftmarge
-{ 
-    margin-left:30%;   
+
+.leftmarge {
+    margin-left: 30%;
 }
-.test{
-    margin-top:-10%;
-    opacity:0.5;
+
+.test {
+    margin-top: -10%;
+    opacity: 0.5;
 }
+
 .box {
     padding: 60px 0px;
 }
@@ -41,8 +46,3 @@
 .text {
     margin: 20px 0px;
 }
-
-.fa {
-    color: #4183D7;
-}
-
